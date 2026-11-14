@@ -1,7 +1,8 @@
+
 {
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/((?!assets/|models/|draco/|.*\\.).*)",
       "destination": "/index.html"
     }
   ]
